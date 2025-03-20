@@ -74,4 +74,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/ptero-eggs/games:${{ matrix.game }}
+            ghcr.io/tavuru/games:${{ matrix.game }}
