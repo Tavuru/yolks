@@ -34,7 +34,7 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/ptero-eggs/yolks:voice_${{ matrix.tag }}
+            ghcr.io/tavuru/yolks:voice_${{ matrix.tag }}
 
 
   pushx64_arm64:
