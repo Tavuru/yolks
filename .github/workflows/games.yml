@@ -43,7 +43,7 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/ptero-eggs/games:${{ matrix.game }}
+            ghcr.io/tavuru/games:${{ matrix.game }}
   pushAll:
     name: "games_All:${{ matrix.game }}"
     runs-on: ubuntu-latest
